@@ -125,6 +125,7 @@ __%[1]s_handle_go_custom_completion()
         local fullFilter filter filteringCmd
         # Do not use quotes around the $out variable or else newline
         # characters will be kept.
+		# shellcheck disable=SC2048
         for filter in ${out[*]}; do
             fullFilter+="$filter|"
         done
