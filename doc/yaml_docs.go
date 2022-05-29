@@ -23,7 +23,7 @@ import (
 
 	"github.com/muesli/coral"
 	"github.com/spf13/pflag"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 type cmdOption struct {
